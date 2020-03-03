@@ -20,7 +20,7 @@ public class movement : MonoBehaviour
         }
 
         if(Input.GetKey (KeyCode.D)) {
-         transform.Translate (Vector3. right *   movementspeed * Time.deltaTime);
+         transform.Translate (Vector3. right * movementspeed * Time.deltaTime);
         }
 
     }
